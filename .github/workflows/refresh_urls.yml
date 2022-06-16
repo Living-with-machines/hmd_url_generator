@@ -15,7 +15,7 @@ jobs:
         ref: 'traffic'
     - name: Install library and other requirements
       run: |
-        pip install jupyter nbconvert altair 
+        pip install jupyter nbconvert 
         pip install git+https://github.com/Living-with-machines/gh_orgstats
     - name: Execute report notebook
       env:
